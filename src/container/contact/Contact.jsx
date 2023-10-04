@@ -2,6 +2,7 @@ import "./Contact.style.css";
 import Navbar from "../../components/navbar/Navbar.jsx";
 import { Helmet } from "react-helmet-async";
 import ButtonComponent from "../../components/button/ButtonComponent";
+
 const Contact = () => {
   return (
     <>
