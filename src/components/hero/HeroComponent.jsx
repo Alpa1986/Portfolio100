@@ -1,6 +1,6 @@
 import "./HeroComponentStyle.css";
 
-import Navbar from "../navbar/navbar";
+import Navbar from "../navbar/Navbar.jsx";
 
 const HeroComponent = () => {
   return (
