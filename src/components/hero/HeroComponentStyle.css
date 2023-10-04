@@ -1,0 +1,65 @@
+.heroctn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(39, 39, 39);
+  width: 100em;
+  height: 45em;
+  border-radius: 23px;
+  background: linear-gradient(145deg, #1d1d1d, #222222);
+  box-shadow: 5px 25px 10px #0d0d0d, -10px -10px 15px #333333;
+}
+
+.herocontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: "Lazer", sans-serif;
+  text-shadow: inset 0px 0px 0.5em 0px HSL(114, 96.1%, 59.6%),
+    0px 0px 0.5em 0px HSL(114, 96.1%, 59.6%);
+}
+
+.herospn {
+  color: HSL(114, 96.1%, 59.6%);
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.herotxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  height: 45em;
+  width: 60em;
+  left: 0;
+  top: 0;
+
+  padding: 2em;
+  text-align: center;
+}
+
+.heropix {
+  position: absolute;
+  right: 0;
+
+  bottom: 0;
+  flex: 1;
+  background: url(../../assets/images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0.07em);
+  height: 85vh;
+  width: 700px;
+}

@@ -1,0 +1,61 @@
+@import "animate.css";
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lazer";
+  src: url("./assets/fonts/lazenby_computer/LazenbyCompSmooth.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Abstract";
+  src: url("./assets/fonts/abstract/ABSTRACT.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(111, 109, 109);
+  background: linear-gradient(
+    130deg,
+    rgba(111, 109, 109, 1) 0%,
+    rgba(65, 63, 63, 1) 100%
+  );
+}
+
+.heroctn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(39, 39, 39);
+  width: 100em;
+  height: 45em;
+  border-radius: 23px;
+  background: linear-gradient(145deg, #1d1d1d, #222222);
+  box-shadow: 5px 25px 10px #0d0d0d, -10px -10px 15px #333333;
+}
