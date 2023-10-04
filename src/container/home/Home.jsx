@@ -24,7 +24,7 @@ const Home = () => {
               deleteSpeed={100}
             />
           </h2>
-          <ButtonComponent s="P" faulty="R" end="OJECT'S" />
+          <ButtonComponent s="P" faulty="R" end="OJECTS" />
         </div>
         <div className="heropix"></div>
       </div>
